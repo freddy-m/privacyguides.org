@@ -8,12 +8,23 @@ title: "About Privacy Guides"
 
 ## Our Team
 
+### Project Leaders
+
 ??? person "@jonah"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/jonah)
     - [:simple-github: GitHub](https://github.com/jonaharagon "@jonaharagon")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
     - [:fontawesome-solid-house: Homepage](https://www.jonaharagon.com)
+    
+??? person "@dngray"
+
+    - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/dngray)
+    - [:simple-github: GitHub](https://github.com/dngray "@dngray")
+    - [:simple-mastodon: Mastodon](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
+    - [:fontawesome-solid-envelope: Email](mailto:dngray@privacyguides.org)
+    
+### Senior Team Members
 
 ??? person "@niek-de-wilde"
 
@@ -21,20 +32,14 @@ title: "About Privacy Guides"
     - [:simple-github: GitHub](https://github.com/blacklight447 "@blacklight447")
     - [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
 
-??? person "@dngray"
-
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/dngray)
-    - [:simple-github: GitHub](https://github.com/dngray "@dngray")
-    - [:simple-mastodon: Mastodon](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
-    - [:fontawesome-solid-envelope: Email](mailto:dngray@privacyguides.org)
-
 ??? person "@freddy"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/freddy)
-    - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
-    - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
     - [:fontawesome-solid-envelope: Email](mailto:freddy@privacyguides.org)
-    - [:fontawesome-solid-house: Homepage](https://freddy.omg.lol)
+    - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
+    - [:fontawesome-solid-house: Homepage](https://freddy.lol)
+    
+### Team Members
 
 ??? person "@mfwmyfacewhen"
 
