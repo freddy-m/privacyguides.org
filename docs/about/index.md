@@ -10,14 +10,14 @@ title: "About Privacy Guides"
 
 ### Project Leaders
 
-??? person "@jonah"
+??? person "Jonah"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/jonah)
     - [:simple-github: GitHub](https://github.com/jonaharagon "@jonaharagon")
     - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
     - [:fontawesome-solid-house: Homepage](https://www.jonaharagon.com)
     
-??? person "@dngray"
+??? person "dngray"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/dngray)
     - [:simple-github: GitHub](https://github.com/dngray "@dngray")
@@ -26,13 +26,13 @@ title: "About Privacy Guides"
     
 ### Senior Team Members
 
-??? person "@niek-de-wilde"
+??? person "Niek de Wilde"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/Niek-de-Wilde)
     - [:simple-github: GitHub](https://github.com/blacklight447 "@blacklight447")
     - [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
 
-??? person "@freddy"
+??? person "Freddy"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/freddy)
     - [:fontawesome-solid-envelope: Email](mailto:freddy@privacyguides.org)
@@ -41,13 +41,13 @@ title: "About Privacy Guides"
     
 ### Team Members
 
-??? person "@mfwmyfacewhen"
+??? person "mfwmyfacewhen"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/mfwmyfacewhen)
     - [:simple-github: GitHub](https://github.com/mfwmyfacewhen "@mfwmyfacewhen")
     - [:fontawesome-solid-house: Homepage](https://mfw.omg.lol)
     
-??? person "@olivia"
+??? person "Olivia"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/olivia)
     - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
