@@ -36,7 +36,7 @@ title: "About Privacy Guides"
 
     - [:simple-discourse: Discourse](https://discuss.privacyguides.org/u/freddy)
     - [:fontawesome-solid-envelope: Email](mailto:freddy@privacyguides.org)
-    - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
+    - [:simple-matrix: Matrix](https://matrix.to/#/@freddy:privacyguides.org)"@freddy:privacyguides.org")
     - [:fontawesome-solid-house: Homepage](https://freddy.lol)
     
 ### Team Members
