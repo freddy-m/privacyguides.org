@@ -22,12 +22,12 @@ cover: multi-factor-authentication.webp
 
 The [comparison table](https://www.yubico.com/store/compare/) shows the features and how the YubiKeys compare. We highly recommend that you select keys from the YubiKey 5 Series.
 
-YubiKeys can be programmed using the [YubiKey Manager](https://www.yubico.com/support/download/yubikey-manager/) or [YubiKey Personalization Tools](https://www.yubico.com/support/download/yubikey-personalization-tools/). For managing TOTP codes, you can use the [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/). All of Yubico's clients are open-source.
+YubiKeys can be programmed using the [YubiKey Manager](https://www.yubico.com/support/download/yubikey-manager/) or [YubiKey Personalization Tools](https://www.yubico.com/support/download/yubikey-personalization-tools/). For managing TOTP codes, you can use the [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/). All of Yubico's clients are open source.
 
 For models which support HOTP and TOTP, there are 2 slots in the OTP interface which could be used for HOTP and 32 slots to store TOTP secrets. These secrets are stored encrypted on the key and never expose them to the devices they are plugged into. Once a seed (shared secret) is given to the Yubico Authenticator, it will only give out the six-digit codes, but never the seed. This security model helps limit what an attacker can do if they compromise one of the devices running the Yubico Authenticator and make the YubiKey resistant to a physical attacker.
 
 !!! warning
-    The firmware of YubiKey is not open-source and is not updatable. If you want features in newer firmware versions, or if there is a vulnerability in the firmware version you are using, you would need to purchase a new key.
+    The firmware of YubiKey is not open source and is not updatable. If you want features in newer firmware versions, or if there is a vulnerability in the firmware version you are using, you would need to purchase a new key.
 
 ### Nitrokey
 
@@ -57,7 +57,7 @@ For the models which support HOTP and TOTP, there are 3 slots for HOTP and 15 fo
 
 The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports system integrity verification for laptops with the [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware.
 
-Nitrokey's firmware is open-source, unlike the YubiKey. The firmware on modern NitroKey models (except the **NitroKey Pro 2**) is updatable.
+Nitrokey's firmware is open source, unlike the YubiKey. The firmware on modern NitroKey models (except the **NitroKey Pro 2**) is updatable.
 
 ### Criteria
 
@@ -89,13 +89,32 @@ Authenticator Apps implement a security standard adopted by the Internet Enginee
 
 We highly recommend that you use mobile TOTP apps instead of desktop alternatives as Android and iOS have better security and app isolation than most desktop operating systems.
 
+### ente Auth
+
+!!! recommendation
+
+    ![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
+
+    **ente Auth** is a free and open-source app which stores and generates TOTP tokens on your mobile device. It can be used with an online account to backup and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
+
+    [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Source Code" }
+
+    ??? downloads
+
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
+        - [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
+        - [:simple-github: GitHub](https://github.com/ente-io/auth/releases)
+        - [:octicons-globe-16: Web](https://auth.ente.io)
+
 ### Aegis Authenticator (Android)
 
 !!! recommendation
 
     ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
 
-    **Aegis Authenticator** is a free, secure and open-source app to manage your 2-step verification tokens for your online services.
+    **Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives.
 
     [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
