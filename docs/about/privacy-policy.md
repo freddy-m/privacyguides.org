@@ -1,18 +1,24 @@
 ---
 title: "Privacy Policy"
+description: We do not sell or share your data with any third-parties.
 ---
-Privacy Guides is a community project operated by a number of active volunteer contributors. The public list of team members [can be found on GitHub](https://github.com/orgs/privacyguides/people).
+Privacy Guides is a community project operated by a number of active contributors. The public list of team members [can be found on our forum](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all).
 
 ## Data We Collect From Visitors
 
 The privacy of our website visitors is important to us, so we do not track any individual people. As a visitor to our website:
 
-- No personal information is collected
-- No information such as cookies are stored in the browser
+- No personal information is stored
 - No information is shared with, sent to or sold to third-parties
 - No information is shared with advertising companies
 - No information is mined and harvested for personal and behavioral trends
 - No information is monetized
+
+You can view the data we collect on our [statistics](statistics.md) page.
+
+We run a self-hosted installation of [Umami](https://umami.is) to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only, and no personal data is stored.
+
+The only data which is collected is data sent in a standard web request, which includes referral sources, the page you're visiting, your user agent, your IP address, and your screen resolution. The raw data is immediately discarded after statistics have been generated, for example if we collect your screen resolution as `1125x2436`, the only data we retain is "mobile device" and not your specific resolution.
 
 ## Data We Collect From Account Holders
 
