@@ -63,12 +63,24 @@ jobs:
       context: production
       continue-on-error: false
       cache: false
+    secrets:
+      RO_DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
 
   build_blog:
     needs: submodule
     permissions:
       contents: read
     uses: ./.github/workflows/build-blog.yml
+    with:
+      repo: ${{ github.repository }}
+      ref: ${{ github.ref }}
+      continue-on-error: false
+
+  build_videos:
+    needs: submodule
+    permissions:
+      contents: read
+    uses: ./.github/workflows/build-videos.yml
     with:
       repo: ${{ github.repository }}
       ref: ${{ github.ref }}
@@ -95,7 +107,7 @@ jobs:
           makeLatest: true
 
   deploy:
-    needs: [build, build_blog]
+    needs: [build, build_blog, build_videos]
     uses: privacyguides/webserver/.github/workflows/deploy-all.yml@main
     secrets:
       NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
@@ -112,5 +124,5 @@ jobs:
 
   cleanup:
     if: ${{ always() }}
-    needs: [build, build_blog]
+    needs: [build, build_blog, build_videos]
     uses: privacyguides/.github/.github/workflows/cleanup.yml@main

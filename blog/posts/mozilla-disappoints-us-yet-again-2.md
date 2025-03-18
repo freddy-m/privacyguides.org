@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2024-07-14
+    created: 2024-07-14T19:00:00Z
 categories:
     - News
 authors:
@@ -14,7 +14,9 @@ schema_type: AnalysisNewsArticle
 
 # "Privacy-Preserving" Attribution: Mozilla Disappoints Us Yet Again
 
-![](../assets/images/mozilla-disappoints-us-yet-again-2/cover.jpeg)
+![](../assets/images/mozilla-disappoints-us-yet-again-2/cover.webp)
+
+<small aria-hidden="true">Image: Unsplash</small>
 
 **"No shady privacy policies or back doors for advertisers" proclaims the Firefox homepage, but that's no longer true in Firefox 128.**
 

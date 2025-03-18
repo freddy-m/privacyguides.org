@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2019-11-20
+    created: 2019-11-20T19:00:00Z
 categories:
     - News
 authors:
@@ -17,7 +17,9 @@ schema_type: AnalysisNewsArticle
 ---
 # The Trouble With VPN and Privacy Review Sites
 
-!["Unbiased Reviews" cover image](../assets/images/the-trouble-with-vpn-and-privacy-review-sites/cover.png)
+!["Unbiased Reviews" cover image](../assets/images/the-trouble-with-vpn-and-privacy-review-sites/cover.webp)
+
+<small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides | Photo: Unsplash</small>
 
 There’s a massive problem in the privacy world. Websites, social media accounts, and other platforms are constantly popping up out of nowhere, telling you to buy *The Greatest Service Ever* in order to solve all your privacy woes, whatever that may be. These websites often employ marketing teams to make sure their “reviews” are what you see first when you begin your research. Some of them are even operated by VPN providers themselves, operating under anonymous business entities to hide their bias, or doing it right out in the open, hoping you’ll mistake their advertising-filled press releases and blogs as insider knowledge of the VPN space.<!-- more -->
 
@@ -63,7 +65,7 @@ If these sites truly wanted to be helpful, they would consolidate all the releva
 
 But that isn’t to say they should just throw all the providers in a big table and call it a day. Almost worse than the ranking scheme above is when sites provide out of context lists of providers, often just with pricing and a link. Sometimes they will link you to a full review (more on that in a bit), but for the most part these sites just expect you to follow their recommendations blindly.
 
-![Image of a review site with mostly affiliated recommendations](../assets/images/the-trouble-with-vpn-and-privacy-review-sites/image1.png "Affiliate links and discounts galore! This is a different site than before, but look at the familiar faces we’re seeing…")
+![Image of a review site with mostly affiliated recommendations](../assets/images/the-trouble-with-vpn-and-privacy-review-sites/image1.webp "Affiliate links and discounts galore! This is a different site than before, but look at the familiar faces we’re seeing…")
 
 These read like advertisements, because they usually are. Once again we see the usual suspects — NordVPN, ExpressVPN… — paraded as the gold standard in the VPN space, not out of any inherent value, but based on the value of their affiliate programs. To further this point, let’s take a look at how much each of the five providers above will pay you for a referral (on a one-month plan).
 

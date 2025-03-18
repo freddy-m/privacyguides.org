@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2019-11-19
+    created: 2019-11-19T19:00:00Z
 categories:
     - Announcements
 authors:
@@ -15,7 +15,9 @@ schema_type: NewsArticle
 ---
 # Delisting Wire From Privacy Guides
 
-!["Delisting Wire" cover image](../assets/images/delisting-wire/cover.png)
+!["Delisting Wire" cover image](../assets/images/delisting-wire/cover.avif)
+
+<small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides | Photo: Unsplash</small>
 
 It has recently come to the attention of the *Privacy Guides* team that **Wire**, the popular end-to-end encryption messaging platform [has been sold or moved to a US company](https://web.archive.org/web/20201128215737/https://forum.privacytools.io/t/wire-swiss-gmbh-is-now-owned-by-a-usa-holding-company/1932). After a week of questioning, Wire finally confirmed they had changed holding companies and would now be a US based company in a move they called “simple and pragmatic,” as they worked to expand their foothold in the enterprise market. This also came alongside the news that Wire had accepted more than $8 million in Venture Capital (VC) funding from Morpheus Ventures, as well as other investors.<!-- more -->
 
@@ -31,7 +33,7 @@ Even if he is correct, the move and statement do bring up further questions. Wit
 
 Wire also quietly made an adjustment to its own privacy policy. A [previous version](https://web.archive.org/web/20180324221043/https://wire.com/en/legal/#privacy-7) of the policy (July 18, 2017) stated it would only share user data when required by law. Now (Updated September 1, 2018), it reads they will share user data when "necessary." What does necessary mean, and necessary to whom? Necessary to law enforcement, shareholders, or advertisers? The word "necessary" is an alarming change because "necessary" is purposefully vague terminology that could conceivably be used as a tool to justify any action. This change doesn't leave the user with much confidence as to when the company may share your data.
 
-Yet another red flag, and one of the more important ones to us, was is that Wire decided not to disclose this policy change to its users, and when asked why, Brøgger was flippant in his response, stating: “Our evaluation was that this was not necessary. Was it right or wrong? I don’t know.”
+Yet another red flag, and one of the more important ones to us, was that Wire decided not to disclose this policy change to its users, and when asked why, Brøgger was flippant in his response, stating: “Our evaluation was that this was not necessary. Was it right or wrong? I don’t know.”
 
 We feel we do know, and the answer was that it was wrong. Privacy and security are not built solely on strong technology, but on trust. Yes, we can review Wire's open source code on GitHub, but we can't ever be sure that code is the same exact code that runs on their servers in practice. Yet, we have trusted them in the past because Wire had built a trustworthy reputation for themselves. We now feel that Wire has lost this reputation. By deciding to withhold information regarding its ownership and policies from its users, Wire has broken the trust our community has placed in it, and worse yet sounds almost dismissive of the worries voiced by the privacy community that had long held them in high regard.
 

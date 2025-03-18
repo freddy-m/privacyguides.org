@@ -84,14 +84,6 @@ For more details about each project, why they were chosen, and additional tips o
 
     - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
 
-- ![Mull logo](assets/img/browsers/mull.svg){ .lg .middle .twemoji } **Mull (Android)**
-
-    ---
-
-    **Mull** is a Firefox-based browser for Android centered around privacy and removing proprietary components.
-
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#mull-android)
-
 - ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
@@ -176,13 +168,13 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    - [x] **45+ Countries**
+    - [x] **49+ Countries**
     - [x] WireGuard Support
     - [x] Monero & Cash Payments
     - [ ] No Port Forwarding
     - [x] IPv6 Support
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#mullvad)
 
 </div>
 
@@ -194,7 +186,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Genève, Switzerland. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
+    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
 
@@ -202,7 +194,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with up to 2GB storage, which can be upgraded as needed.
+    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#mailboxorg)
 
@@ -210,7 +202,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1GB of storage.
+    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1 GB of storage.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#tuta)
 
@@ -234,8 +226,9 @@ If you're looking for added **security**, you should always ensure you're connec
 
 <div class="grid cards" markdown>
 
-- ![mailcow logo](assets/img/email/mailcow.svg){ .twemoji loading=lazy } [mailcow](email.md#self-hosting-email)
-- ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email.md#self-hosting-email)
+- ![Stalwart logo](assets/img/email/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email.md#stalwart)
+- ![Mailcow logo](assets/img/email/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email.md#mailcow)
+- ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email.md#mail-in-a-box)
 
 </div>
 </div>
@@ -403,8 +396,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![MAT2 logo](assets/img/data-redaction/mat2.svg){ .twemoji loading=lazy } [MAT2](data-redaction.md#mat2)
 - ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji loading=lazy } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
-- ![Metapho logo](assets/img/data-redaction/metapho.jpg){ .twemoji loading=lazy } [Metapho (iOS)](data-redaction.md#metapho-ios)
-- ![ExifTool logo](assets/img/data-redaction/exiftool.png){ .twemoji loading=lazy } [ExifTool (CLI)](data-redaction.md#exiftool)
+- ![ExifTool logo](assets/img/data-redaction/exiftool.png){ .twemoji loading=lazy } [ExifTool (CLI)](data-redaction.md#exiftool-cli)
 
 </div>
 
@@ -490,6 +482,21 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Learn more :material-arrow-right-drop-circle:](frontends.md)
 
+### Health and Wellness Apps
+
+<div class="grid cards" markdown>
+
+- ![drip. logo](assets/img/health-and-wellness/drip.png){ .twemoji loading=lazy } [drip.](health-and-wellness.md#drip)
+- ![Euki logo](assets/img/health-and-wellness/euki.svg){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
+- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy }[Apple Health](health-and-wellness.md#apple-health)
+- ![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ .twemoji loading=lazy }![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
+- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy }[Apple Health Records](health-and-wellness.md#apple-health-records)
+- ![CommonHealth logo](assets/img/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](health-and-wellness.md)
+
 ### Language Tools
 
 <div class="grid cards" markdown>
@@ -499,6 +506,17 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 </div>
 
 [Learn more :material-arrow-right-drop-circle:](language-tools.md)
+
+### Maps and Navigation Apps
+
+<div class="grid cards" markdown>
+
+- ![Organic Maps logo](assets/img/maps/organic-maps.svg){ .twemoji loading=lazy } [Organic Maps](maps.md#organic-maps)
+- ![OsmAnd logo](assets/img/maps/osmand.svg){ .twemoji loading=lazy } [OsmAnd](maps.md#osmand)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](maps.md)
 
 ### Multi-Factor Authentication Tools
 
@@ -563,7 +581,6 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 - ![Psono logo](assets/img/password-management/psono.svg){ .twemoji loading=lazy } [Psono](passwords.md#psono)
 - ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji loading=lazy } [KeePassXC](passwords.md#keepassxc)
 - ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji loading=lazy } [KeePassDX (Android)](passwords.md#keepassdx-android)
-- ![Strongbox logo](assets/img/password-management/strongbox.svg){ .twemoji loading=lazy } [Strongbox (iOS & macOS)](passwords.md#strongbox-ios-macos)
 - ![gopass logo](assets/img/password-management/gopass.svg){ .twemoji loading=lazy } [gopass (CLI)](passwords.md#gopass-cli)
 
 </div>
@@ -575,6 +592,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 <div class="grid cards" markdown>
 
 - ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ .twemoji loading=lazy } [PrivateBin](pastebins.md#privatebin)
+- ![Paaster logo](assets/img/pastebins/paaster.svg){ .twemoji loading=lazy } [Paaster](pastebins.md#paaster)
 
 </div>
 
@@ -627,7 +645,6 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 <div class="grid cards" markdown>
 
 - ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji loading=lazy }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji loading=lazy } [GrapheneOS](android/distributions.md#grapheneos)
-- ![DivestOS logo](assets/img/android/divestos.svg){ .twemoji loading=lazy } [DivestOS](android/distributions.md#divestos)
 
 </div>
 
@@ -662,10 +679,10 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 - ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji loading=lazy } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
 - ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Workstation](desktop.md#fedora-workstation)
-- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji loading=lazy } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
+- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji loading=lazy } [openSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
 - ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji loading=lazy } [Arch Linux](desktop.md#arch-linux)
 - ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Atomic Desktops](desktop.md#fedora-atomic-desktops)
-- ![nixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji loading=lazy } [NixOS](desktop.md#nixos)
+- ![NixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji loading=lazy } [NixOS](desktop.md#nixos)
 - ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji loading=lazy } [Whonix (Tor)](desktop.md#whonix)
 - ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji loading=lazy } [Tails (Live Boot)](desktop.md#tails)
 - ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ .twemoji loading=lazy } [Kicksecure](desktop.md#kicksecure)
@@ -708,7 +725,6 @@ These tools may provide utility for certain individuals. They provide functional
 - ![MVT logo](assets/img/device-integrity/mvt.webp){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
 - ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
 - ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
-- ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji loading=lazy }![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji loading=lazy } [Hypatia (Android)](device-integrity.md#hypatia-android)
 
 </div>
 

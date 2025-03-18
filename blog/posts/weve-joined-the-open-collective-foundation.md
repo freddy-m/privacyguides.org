@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2019-10-31
+    created: 2019-10-31T19:00:00Z
 categories:
     - Announcements
 authors:
@@ -15,6 +15,8 @@ schema_type: NewsArticle
 # We've Joined the Open Collective Foundation 501(c)(3)
 
 ![Privacy Guides cover image](../assets/brand/images/png/cover.png)
+
+<small aria-hidden="true">Illustration: Jonah Aragon / Privacy Guides</small>
 
 [Privacy Guides](https://www.privacyguides.org) provides knowledge, recommendations, and services to protect you against global mass surveillance programs and encourage self-control of your data online. Our website is free of advertisements and is not affiliated with any listed providers, because we believe that our ability to recommend solutions without receiving financial kickbacks is incredibly important in remaining unbiased.<!-- more -->
 

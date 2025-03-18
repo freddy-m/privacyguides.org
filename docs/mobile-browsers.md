@@ -136,6 +136,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     - [x] Select **Auto-Redirect Tracking URLs**
     - [x] (Optional) Select **Block Scripts** (1)
     - [x] Select **Block Fingerprinting**
+    - [x] Select **Site Tabs Closed** under *Auto Shred*
 
     <details class="warning" markdown>
     <summary>Use default filter lists</summary>
@@ -165,6 +166,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [x] (Optional) Select **No protection** under *Safe Browsing* (1)
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
+    - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
     - [x] Select **Close tabs on exit**
     - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
     - [ ] Uncheck **Automatically send diagnostic reports**
@@ -209,7 +211,7 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 **Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other [privacy and security enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
 
-[:octicons-home-16: Homepage](https://www.cromite.org){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
@@ -217,7 +219,7 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-android: F-Droid](https://www.cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
+- [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
 - [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
 
 </details>
@@ -246,7 +248,7 @@ This prevents you from unintentionally connecting to a website in plain-text HTT
 
 These options can be found in :material-menu: → :gear: **Settings** → **Adblock Plus settings**.
 
-Cromite contains a customized version of Adblock Plus with EasyList enabled by default, as well as options to select more filter lists within the **FIlter lists** menu.
+Cromite contains a customized version of Adblock Plus with EasyList enabled by default, as well as options to select more filter lists within the **Filter lists** menu.
 
 Using extra lists will make you stand out from other Cromite users and may also increase attack surface if a malicious rule is added to one of the lists you use.
 
@@ -262,50 +264,6 @@ These options can be found in :material-menu: → :gear: **Settings** → **Lega
 
 This disables update checks for the unmaintained Bromite adblock filter.
 
-## Mull (Android)
-
-<div class="admonition recommendation" markdown>
-
-![Mull logo](assets/img/browsers/mull.svg){ align=right }
-
-**Mull** is a privacy oriented and deblobbed Android browser based on Firefox. Compared to Firefox, it offers much greater fingerprinting protection out of the box, and disables JavaScript Just-in-Time (JIT) compilation for enhanced security. It also removes all proprietary elements from Firefox, such as replacing Google Play Services references.
-
-[:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title="Documentation" }
-[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/us.spotco.fennec_dos)
-
-</details>
-
-</div>
-
-<div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
-
-Firefox (Gecko)-based browsers on Android [lack](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) [site isolation](https://wiki.mozilla.org/Project_Fission),[^1] a powerful security feature that protects against a malicious site performing a [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability))-like attack to gain access to the memory of another website you have open.[^2] Chromium-based browsers like [Brave](#brave) will provide more robust protection against malicious websites.
-
-</div>
-
-[^1]: This should not be mistaken for [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) (or dynamic [first party isolation](https://2019.www.torproject.org/projects/torbrowser/design/#identifier-linkability)), where website data such as cookies and cache is restricted so that a third-party embedded in one top-level site cannot access data stored under another top-level site. This is an important privacy feature to prevent cross-site tracking and **is** supported by Firefox on Android.
-[^2]: GeckoView also [does not](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196) take advantage of Android's native process sandboxing by using the [isolatedProcess](https://developer.android.com/guide/topics/manifest/service-element#isolated) flag, which normally allows an app to safely run less trusted code in a separate process that has no permissions of its own.
-
-Enable DivestOS's [F-Droid repository](https://divestos.org/fdroid/official) to receive updates directly from the developer. Downloading Mull from the default F-Droid repo will mean your updates could be delayed by a few days or longer.
-
-Mull enables many features upstreamed by the [Tor uplift project](https://wiki.mozilla.org/Security/Tor_Uplift) using preferences from [Arkenfox](desktop-browsers.md#arkenfox-advanced). Proprietary blobs are removed from Mozilla's code using the scripts developed for Fennec F-Droid.
-
-### Recommended Mull Configuration
-
-We would suggest installing [uBlock Origin](browser-extensions.md#ublock-origin) as a content blocker if you want to block trackers within Mull.
-
-Mull comes with privacy protecting settings configured by default. You might consider configuring the **Delete browsing data on quit** options in Mull's settings if you want to close all your open tabs when quitting the app automatically, or clear other data such as browsing history and cookies automatically.
-
-Because Mull has more advanced and strict privacy protections enabled by default compared to most browsers, some websites may not load or work properly unless you adjust those settings. You can consult this [list of known issues and workarounds](https://divestos.org/pages/broken#mull) for advice on a potential fix if you do encounter a broken site. Adjusting a setting in order to fix a website could impact your privacy/security, so make sure you fully understand any instructions you follow.
-
 ## Safari (iOS)
 
 On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Chromium engine like its counterparts on other operating systems.
@@ -314,7 +272,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 ![Safari logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
+**Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
 
 [:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
@@ -365,6 +323,10 @@ This setting allows you to lock your private tabs behind biometrics/PIN when not
 
 This setting uses Google Safe Browsing (or Tencent Safe Browsing for users in mainland China or Hong Kong) to protect you while you browse. As such, your IP address may be logged by your Safe Browsing provider. Disabling this setting will disable this logging, but you might be more vulnerable to known phishing sites.
 
+- [x] Enable **Not Secure Connection Warning**
+
+This setting shows a warning screen if your connection to a website isn't using HTTPS. Safari will automatically try to upgrade the site to HTTPS, so you should only see this when there is no HTTPS connection available.
+
 - [ ] Disable **Highlights**
 
 Apple's privacy policy for Safari states:
@@ -411,7 +373,7 @@ Open Safari and tap the Tabs button, located in the bottom right. Then, expand t
 
 - [x] Select **Private**
 
-Safari's Private Browsing mode offers additional privacy protections. Private Browsing uses a new [ephemeral](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) session for each tab, meaning tabs are isolated from one another. There are also other smaller privacy benefits with Private Browsing, such as not sending a webpage’s address to Apple when using Safari's translation feature.
+Safari's Private Browsing mode offers additional privacy protections. Private Browsing uses a new [ephemeral](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) session for each tab, meaning tabs are isolated from one another. There are other smaller privacy benefits with Private Browsing too, such as not sending a webpage’s address to Apple when using Safari's translation feature.
 
 Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed in to sites. This may be an inconvenience.
 

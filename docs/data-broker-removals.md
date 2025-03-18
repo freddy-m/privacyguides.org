@@ -32,7 +32,6 @@ You should search for your information on these sites first, and submit an opt-o
 - CheckPeople ([Search](https://checkpeople.com/do-not-sell-info), select *Remove Record* to opt-out)
 - ClustrMaps ([Search](https://clustrmaps.com), [Opt-Out](https://clustrmaps.com/bl/opt-out))
 - Dataveria ([Search](https://dataveria.com), [Opt-Out](https://dataveria.com/ng/control/privacy))
-- Glad I Know ([Search](https://gladiknow.com), [Opt-Out](https://gladiknow.com/opt-out))
 - InfoTracer ([Search](https://infotracer.com), [Opt-Out](https://infotracer.com/optout))
 - Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
 - PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/optout))
@@ -56,11 +55,11 @@ This sets you up on a nice schedule to re-review each website approximately ever
 
 Once you have opted-out of all of these sites for the first time, it's best to wait a week or two for the requests to propagate to all their sites. Then, you can start to search and opt-out of any remaining sites you find. It can be a good idea to use a web crawler like [Google's *Results about you*](#google-results-about-you-free) tool to help find any data that remains on the internet.
 
-Otherwise, privacy journalist Yael Grauer has compiled an excellent list of data broker sites with direct links to their search tools and opt-out pages. You can take some time to go though each site to determine whether they have your information, and remove it:
+Otherwise, privacy journalist Yael Grauer has compiled an excellent list of data broker sites with direct links to their search tools and opt-out pages. You can take some time to go through each site to determine whether they have your information, and remove it:
 
 [:simple-github: Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List){ .md-button }
 
-If you don't use an automatic scanner to find results about you, consider setting a reminder to re-do this process every 3, 6, or 12 months depending on your risk level and the amount of personal data you have out there. Unfortunately, it is common for your data to re-appear over time or show up on brand new people search sites even after you opt-out.
+If you don't use an automatic scanner to find results about you, consider setting a reminder to re-do this process every 3, 6, or 12 months depending on your risk level and the amount of personal data you have out there. Unfortunately, it is common for your data to re-appear over time or show up on brand-new people search sites even after you opt out.
 
 ## EasyOptOuts <small>Paid</small>
 
@@ -77,7 +76,7 @@ If you don't use an automatic scanner to find results about you, consider settin
 
 Some websites supported by EasyOptOuts are publicly searchable. In those cases EasyOptOuts will perform a search and only submit an opt-out request if your personal data is already found, to prevent sending your data in an opt-out request to sites that didn't have it already. However, they do support some sites which are not publicly searchable, and in those cases your data will be sent to them in an opt-out request regardless, in case you are in their private databases.
 
-Our testing indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. We will publish a detailed review of EasyOptOuts on our blog in the near future and update this page when it is published. [Independent findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
+Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-review) indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. Independent [findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
 
 <div class="admonition failure" markdown>
 <p class="admonition-title">High priority sites not supported by EasyOptOuts</p>
@@ -85,6 +84,7 @@ Our testing indicates that EasyOptOuts provides the best value out of any data r
 EasyOptOuts does not cover the following sites we consider to be "high priority," so you should still manually opt-out of:
 
 - Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
+- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/optout))
 
 </div>
 
@@ -124,8 +124,8 @@ In our testing, this tool worked to reliably remove people search sites from Goo
 
 Our picks for removal services are primarily based on independent professional testing from third-parties as noted in the sections above, our own internal testing, and aggregated reviews from our community.
 
-- Must not be a whitelabeled service or reseller of another provider.
+- Must not be a white labeled service or reseller of another provider.
 - Must not be affiliated with the data broker industry or purchase advertising on people search sites.
 - Must only use your personal data for the purposes of opting you out of data broker databases and people search sites.
 
-[^1]: If you *are* immediately threatened by stalkers or other threats, you should strongly consider an automated tool like [EasyOptOuts](#easyoptouts-paid), at least for the initial "purge." When things are more manageable in the future you can come back to the manual process. Of course, in a dangerous situation your first priority should always be to seek professional help from police or others before tackling it on your own.
+[^1]: If you *are* immediately threatened by stalkers or other threats, you should strongly consider an automated tool like [EasyOptOuts](#easyoptouts-paid), at least for the initial "purge." When things are more manageable in the future you can come back to the manual process. Of course, in a dangerous situation your first priority should always be to seek professional help [from police](https://onlineharassmentfieldmanual.pen.org/involving-law-enforcement) or others before tackling it on your own.

@@ -28,7 +28,7 @@ This means an attacker would have to regularly re-infect your device to retain a
 If any of the following tools indicate a potential compromise by spyware such as Pegasus, Predator, or KingsPawn, we advise that you contact:
 
 - If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us)
-- If a business or government device is compromised: the appropriate security liason at your enterprise, department, or agency
+- If a business or government device is compromised: the appropriate security liaison at your enterprise, department, or agency
 - Local law enforcement
 
 **We are unable to help you directly beyond this.** We are happy to discuss your specific situation or circumstances and review your results in our [community](https://discuss.privacyguides.net) spaces, but it is unlikely we can assist you beyond what is written on this page.
@@ -128,7 +128,7 @@ MVT allows you to perform deeper scans/analysis if your device is jailbroken. Un
 
 </div>
 
-iMazing automates and interactively guides you through the process of using [MVT](#mobile-verification-toolkit) to scan your device for publicly-accessible indicators of compromise published by various threat researchers. All of the information and warnings which apply to MVT apply to this tool as well, so we suggest you also familiarize yourself with the notes on MVT in the sections above.
+iMazing automates and interactively guides you through the process of using [MVT](#mobile-verification-toolkit) to scan your device for publicly-accessible indicators of compromise published by various threat researchers. All the information and warnings which apply to MVT apply to this tool as well, so we suggest you also familiarize yourself with the notes on MVT in the sections above.
 
 ## On-Device Verification
 
@@ -187,43 +187,3 @@ It is important to note that Auditor can only effectively detect changes **after
 No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
 
 If your [threat model](basics/threat-modeling.md) requires privacy, you could consider using [Orbot](tor.md#orbot) or a VPN to hide your IP address from the attestation service.
-
-## On-Device Scanners
-
-<small>Protects against the following threat(s):</small>
-
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
-
-These are apps you can install on your device which scan your device for signs of compromise.
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
-
-Using these apps is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
-
-</div>
-
-### Hypatia (Android)
-
-<div class="admonition recommendation" markdown>
-
-![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
-![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
-
-**Hypatia** is an open source real-time malware scanner for Android, from the developer of [DivestOS](android/distributions.md#divestos). It accesses the internet to download signature database updates, but does not upload your files or any metadata to the cloud (scans are performed entirely locally).
-
-[:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://github.com/divested-mobile/hypatia){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-fdroid: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner)
-
-</details>
-
-</div>
-
-Hypatia is particularly good at detecting common stalkerware: If you suspect you are a victim of stalkerware, you should [visit this page](https://stopstalkerware.org/information-for-survivors) for advice.

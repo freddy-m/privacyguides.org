@@ -460,7 +460,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/47955724?v=4",
       "profile": "https://github.com/taivlam",
       "contributions": [
-        "doc"
+        "doc",
+        "maintenance"
       ]
     },
     {
@@ -2955,6 +2956,35 @@
         "doc",
         "business",
         "fundingFinding"
+      ]
+    },
+    {
+      "login": "bruch-alex",
+      "name": "Alex Bruch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/173354246?v=4",
+      "profile": "https://github.com/bruch-alex",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "qiyongzheng",
+      "name": "qiyongzheng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/153378707?v=4",
+      "profile": "https://github.com/qiyongzheng",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "hashcatHitman",
+      "name": "Sam K",
+      "avatar_url": "https://avatars.githubusercontent.com/u/155700084?v=4",
+      "profile": "https://github.com/hashcatHitman",
+      "contributions": [
+        "doc",
+        "promotion",
+        "question"
       ]
     }
   ],

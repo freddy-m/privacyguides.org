@@ -1,6 +1,6 @@
 ---
 date:
-    created: 2020-05-04
+    created: 2020-05-04T19:00:00Z
 categories:
     - Opinion
 authors:
@@ -17,6 +17,8 @@ schema_type: OpinionNewsArticle
 # Why I Decided to Run a Tor Relay
 
 ![Tor graphic](../assets/images/why-i-run-a-tor-relay/cover.png)
+
+<small aria-hidden="true">Illustration: Tor Project</small>
 
 It makes me smile when I come across someone struggling with the decision of whether to get a [VPN](https://www.privacyguides.org/vpn/). It makes me smile not because of the indecision and relative lack of knowledge, but because it wasn't so long ago I was in exactly the same position—perceiving VPNs to be some kind of extreme measure only the paranoid and the criminal resorted to. How wrong I was.<!-- more -->
 
@@ -39,7 +41,7 @@ And this is when it struck me, as I hope it struck many others at that talk: Am 
 
 It struck me that I have enough money, time and access to the right information to run my own relay. So it begged the question: Why *wouldn’t* I?
 
-At the time of writing my relay has been flagged ‘valid’, ‘running’ and ‘fast’ and is on track to have relayed around 750GB by the end of the month. It feels good. It feels really good.
+At the time of writing my relay has been flagged ‘valid’, ‘running’ and ‘fast’ and is on track to have relayed around 750 GB by the end of the month. It feels good. It feels really good.
 
 ---
 

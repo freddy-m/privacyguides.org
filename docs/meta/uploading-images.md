@@ -29,8 +29,8 @@ optipng -o7 file.png
 
 In Inkscape:
 
-1. File Save As..
-2. Set type to Optimized SVG (*.svg)
+1. File > Save As...
+2. Set type to: Optimized SVG (*.svg)
 
 In the **Options** tab:
 
@@ -48,7 +48,7 @@ In the **SVG Output** tab under **Document options**:
 - [ ] Turn off **Remove the XML declaration**
 - [x] Turn on **Remove metadata**
 - [x] Turn on **Remove comments**
-- [x] Turn on **Embeded raster images**
+- [x] Turn on **Embedded raster images**
 - [x] Turn on **Enable viewboxing**
 
 In the **SVG Output** under **Pretty-printing**:
